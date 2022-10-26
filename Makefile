@@ -6,3 +6,9 @@ build-release:
 
 publish:
 	cargo publish
+
+test:
+	cargo test
+
+install:
+	cargo install --path=crates/dionysus-web

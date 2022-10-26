@@ -1,0 +1,11 @@
+[default]
+port = 3360
+workers = 20
+keep_alive = 10
+secret_key = "Jo/9eoaT2dWhdtoTEIH0dnTOuYcim3m/qif5f3seMyw="
+
+[default.databases.dionysus]
+url = "postgres://admin:3CB0111C-1F49-479B-BD39-CE4C521B812C@localhost:5432/dionysus"
+
+[release]
+address = "0.0.0.0"
